@@ -2,6 +2,7 @@
 usage example of docker-sonar-scanner
 
 1) Create a Dockerfile with this inside in the same folder of your project:
+
 FROM mercuriete/sonar-scanner:onbuild
 
 2) Have a look into the docker-compose.yml
