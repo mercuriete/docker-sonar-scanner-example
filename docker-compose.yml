@@ -7,7 +7,7 @@ networks:
 services:
 
  sonar:
-  image: sonarqube:6.2-alpine
+  image: sonarqube:7.1-alpine
   ports:
    - "9000:9000"
   networks:
